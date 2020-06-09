@@ -1,6 +1,6 @@
 #!/bin/bash
 FILENAME="cred.json"
-read -p "Enter/Paste BotToken Here : " token
+read -p "NzE5OTg1MzYwMDU4MTg3ODQ3.Xt_8EQ.lYkWjGFBmzDOhdufyYnOthp3SY8 : " token
 echo "{">$FILENAME
 echo -e "\t\"token\":\"$token\",">>$FILENAME
 echo -e "\t\"userid\":\"$uid\"">>$FILENAME
